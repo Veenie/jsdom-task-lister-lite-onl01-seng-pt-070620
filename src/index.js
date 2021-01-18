@@ -12,8 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <button data-action = "delete"> X </button></li>`;
     taskList.addEventListener("click", function (e) {
   if (e.target.dataset.action === "delete") {
-    e.target.parentElement.remove();
-  }
+    e.target.parentElement.remove();}
   });
   
 });
