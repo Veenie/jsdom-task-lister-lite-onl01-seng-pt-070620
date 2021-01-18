@@ -4,10 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const taskList = document.querySelector("#tasks");
 
-taskForm.addEventListener("submit", function (e) {
-  e.preventDefault();
-  const newTask = document.querySelector("#new-task-description").value;
+  taskForm.addEventListener("submit", function (e) {
+    e.preventDefault();
+    const newTask = document.querySelector("#new-task-description").value;
 
-  taskList.innerHTML += `<li> ${newTask}
-  </li>`;
+    taskList.innerHTML += `<li> ${newTask}</li>`;
 });
