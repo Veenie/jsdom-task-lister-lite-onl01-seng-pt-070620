@@ -10,4 +10,3 @@ document.addEventListener("DOMContentLoaded", () => {
 
     taskList.innerHTML += `<li> ${newTask}</li>`;}
   
-});
