@@ -10,7 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
     taskList.innerHTML += `<li> ${newTask}
     <button data-action = "delete"> X </button></li>`;
-    
+    taskList.addEventListener("click", function (e) {
+  if (e.target.dataset.action === "delete") {
+    e.target.parentElement.remove();
+  }
   });
   
 });
