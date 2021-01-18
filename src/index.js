@@ -8,4 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {});
     e.preventDefault();
     const newTask = document.querySelector("#new-task-description").value;
 
-    taskList.innerHTML += `<li> ${newTask}</li>`;});
+    taskList.innerHTML += `<li> ${newTask}</li>`;
+    
+  });
