@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     taskList.innerHTML += `<li> ${newTask}
     <button data-action = "delete"> X </button></li>`;
+    
   });
   
 });
