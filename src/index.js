@@ -4,5 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const taskList = document.querySelector("#tasks");
   taskForm.addEventListener("submit", function (event) {
   event.preventDefault();
+  
   document.getElementById("list").innerText = msg;
 });
