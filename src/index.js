@@ -9,5 +9,5 @@ document.addEventListener("DOMContentLoaded", () => {});
     const newTask = document.querySelector("#new-task-description").value;
 
     taskList.innerHTML += `<li> ${newTask}</li>`;
-    
+    // taskForm.reset();
   });
